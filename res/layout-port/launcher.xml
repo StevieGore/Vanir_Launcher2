@@ -40,7 +40,7 @@
         android:layout_gravity="bottom"
         android:layout_marginBottom="@dimen/button_bar_height" />
 
-    <!-- The workspace contains 5 screens of cells -->
+    <!-- The workspace contains 9 screens of cells -->
     <com.android.launcher2.Workspace
         android:id="@+id/workspace"
         android:layout_width="match_parent"
