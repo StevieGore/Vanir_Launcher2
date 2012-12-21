@@ -41,8 +41,8 @@
     <dimen name="folder_icon_padding_top">2dp</dimen>
     <dimen name="workspace_divider_padding_left">0dip</dimen>
     <dimen name="workspace_divider_padding_right">0dip</dimen>
-    <dimen name="workspace_divider_padding_top">0dp</dimen>
-    <dimen name="workspace_divider_padding_bottom">0dp</dimen>
+    <dimen name="workspace_divider_padding_top">0dip</dimen>
+    <dimen name="workspace_divider_padding_bottom">0dip</dimen>
     <dimen name="hotseat_cell_width">64dp</dimen>
     <dimen name="hotseat_cell_height">64dp</dimen>
     <dimen name="hotseat_width_gap">-1dp</dimen>
