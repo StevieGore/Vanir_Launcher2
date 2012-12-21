@@ -53,15 +53,15 @@
     <include
         android:id="@+id/qsb_divider"
         layout="@layout/workspace_divider"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
+        android:layout_width="0dip"
+        android:layout_height="0dip"
         android:layout_marginLeft="@dimen/qsb_bar_height"
         android:layout_gravity="left" />
     <include
         android:id="@+id/dock_divider"
         layout="@layout/workspace_divider"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
+        android:layout_width="0dip"
+        android:layout_height="0dip"
         android:layout_marginRight="@dimen/button_bar_height"
         android:layout_gravity="right" />
     <include
@@ -82,12 +82,12 @@
 
     <com.android.launcher2.DrawableStateProxyView
         android:id="@+id/voice_button_proxy"
-        android:layout_width="@dimen/qsb_bar_height"
-        android:layout_height="@dimen/app_icon_size"
+        android:layout_width="0dip"
+        android:layout_height="0dip"
         android:layout_gravity="top|left"
         android:layout_marginTop="64dp"
         android:clickable="false"
-        android:onClick="onClickVoiceButton"
+        android:onClick="none"
         android:importantForAccessibility="no"
         launcher:sourceViewId="@+id/voice_button" />
 

@@ -27,7 +27,7 @@
         android:layout_alignParentTop="true"
         android:src="@drawable/ic_home_search_normal_holo"
         android:adjustViewBounds="true"
-        android:onClick="onClickSearchButton"
+        android:onClick="none"
         android:focusable="false"
         android:clickable="false"
         android:contentDescription="@string/accessibility_search_button" />
@@ -41,7 +41,7 @@
         android:layout_alignParentBottom="true"
         android:src="@drawable/ic_home_voice_search_holo"
         android:adjustViewBounds="true"
-        android:onClick="onClickVoiceButton"
+        android:onClick="none"
         android:focusable="false"
         android:clickable="false"
         android:contentDescription="@string/accessibility_voice_search_button" />

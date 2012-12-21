@@ -28,8 +28,8 @@
     <include
         android:id="@+id/dock_divider"
         layout="@layout/workspace_divider"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="0dip"
+        android:layout_height="0dip"
         android:layout_marginBottom="@dimen/button_bar_height"
         android:layout_gravity="bottom" />
     <include
@@ -79,11 +79,11 @@
 
     <com.android.launcher2.DrawableStateProxyView
         android:id="@+id/voice_button_proxy"
-        android:layout_width="80dp"
-        android:layout_height="@dimen/qsb_bar_height"
+        android:layout_width="0dip"
+        android:layout_height="0dip"
         android:layout_gravity="top|right"
-        android:clickable="true"
-        android:onClick="onClickVoiceButton"
+        android:clickable="false"
+        android:onClick="none"
         android:importantForAccessibility="no"
         launcher:sourceViewId="@+id/voice_button" />
 
