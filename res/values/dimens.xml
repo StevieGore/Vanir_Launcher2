@@ -30,8 +30,8 @@
 <!-- Workspace -->
     <!-- qsb_bar_height_inset represents qsb_bar_height minus the padding
          that we put on each page for allowing folders to draw out of bounds -->
-    <dimen name="qsb_bar_height_inset">0</dimen>
-    <dimen name="qsb_bar_height">0</dimen>
+    <dimen name="qsb_bar_height_inset">0dp</dimen>
+    <dimen name="qsb_bar_height">0dp</dimen>
     <dimen name="qsb_padding_left">0dp</dimen>
     <dimen name="qsb_padding_right">0dp</dimen>
     <dimen name="search_bar_height">0</dimen>
