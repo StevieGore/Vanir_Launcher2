@@ -15,9 +15,9 @@
 -->
 <ImageView
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:paddingLeft="@dimen/workspace_divider_padding_left"
-    android:paddingRight="@dimen/workspace_divider_padding_right"
-    android:paddingTop="@dimen/workspace_divider_padding_top"
-    android:paddingBottom="@dimen/workspace_divider_padding_bottom"
+    android:paddingLeft="0dip"
+    android:paddingRight="0dip"
+    android:paddingTop="0dip"
+    android:paddingBottom="0dip"
     android:scaleType="fitXY"
     android:src="@drawable/hotseat_track_holo" />
