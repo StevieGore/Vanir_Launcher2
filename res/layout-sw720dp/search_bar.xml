@@ -17,8 +17,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:launcher="http://schemas.android.com/apk/res/com.android.launcher"
     style="@style/SearchDropTargetBar"
-    android:layout_width="match_parent"
-    android:layout_height="@dimen/search_bar_height"
+    android:layout_width="0dip"
+    android:layout_height="0dip"
     android:layout_gravity="bottom|center_horizontal"
     android:background="@drawable/search_frame">
    <!-- Global search icon -->
@@ -26,21 +26,21 @@
         style="@style/SearchButton"
         launcher:sourceImageViewId="@+id/search_button"
         android:id="@+id/search_button_container"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="0dip"
+        android:layout_height="0dip"
         android:layout_gravity="center_vertical"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_toLeftOf="@+id/voice_button_container"
         android:paddingLeft="8dp"
         android:onClick="onClickSearchButton"
-        android:focusable="true"
-        android:clickable="true"
+        android:focusable="false"
+        android:clickable="false"
         android:contentDescription="@string/accessibility_search_button">
        <ImageView
             android:id="@+id/search_button"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_width="0dip"
+            android:layout_height="0dip"
             android:src="@drawable/ic_home_search_normal_holo"
             android:adjustViewBounds="true" />
     </com.android.launcher2.HolographicLinearLayout>
@@ -50,21 +50,21 @@
         style="@style/SearchButton"
         launcher:sourceImageViewId="@+id/voice_button"
         android:id="@+id/voice_button_container"
-        android:layout_width="@dimen/search_bar_height"
-        android:layout_height="match_parent"
+        android:layout_width="0dip"
+        android:layout_height="0dip"
         android:layout_gravity="center_vertical"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:paddingRight="8dp"
         android:gravity="right"
         android:onClick="onClickVoiceButton"
-        android:focusable="true"
-        android:clickable="true"
+        android:focusable="false"
+        android:clickable="false"
         android:contentDescription="@string/accessibility_voice_search_button">
         <ImageView
             android:id="@+id/voice_button"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_width="0dip"
+            android:layout_height="0dip"
             android:src="@drawable/ic_home_voice_search_holo"
             android:adjustViewBounds="true" />
     </com.android.launcher2.HolographicLinearLayout>
