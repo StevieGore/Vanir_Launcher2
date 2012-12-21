@@ -27,7 +27,7 @@
 
     <color name="appwidget_error_color">#FCCC</color>
 
-    <color name="workspace_all_apps_and_delete_zone_text_color">#CCFFFFFF</color>
+    <color name="workspace_all_apps_and_delete_zone_text_color">#38C0F4</color>
     <color name="workspace_all_apps_and_delete_zone_text_shadow_color">#A0000000</color>
-    <color name="workspace_icon_text_color">#FFF</color>
+    <color name="workspace_icon_text_color">#38C0F4</color>
 </resources>
