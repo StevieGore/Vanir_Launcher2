@@ -26,12 +26,12 @@
     <!-- The workspace contains 9 screens of cells -->
     <com.android.launcher2.Workspace
         android:id="@+id/workspace"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:paddingLeft="0dip"
-        android:paddingRight="0dip"
-        android:paddingTop="0dip"
-        android:paddingBottom="0dip"
+        android:layout_width="106"
+        android:layout_height="70"
+        android:paddingLeft="@dimen/workspace_left_padding"
+        android:paddingRight="@dimen/workspace_right_padding"
+        android:paddingTop="@dimen/workspace_top_padding"
+        android:paddingBottom="@dimen/workspace_bottom_padding"
         launcher:defaultScreen="4"
         launcher:cellCountX="4"
         launcher:cellCountY="5"
