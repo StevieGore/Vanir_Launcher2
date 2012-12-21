@@ -5,3 +5,18 @@
 
 							
 							GO AWAYYYYYYY
+							
+		this is not                                                    VANIR MEMBERS ONLY ;)
+		
+		
+		              FOR YOU
+		              
+		              
+		              
+		              GOOOOOO           TROLL
+		              
+		              
+		              
+		              
+		              
+		                                            ELSE WHERE DOUCHE BAG
